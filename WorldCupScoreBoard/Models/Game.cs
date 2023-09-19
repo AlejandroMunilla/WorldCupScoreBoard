@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SportRadar.WorldCupScoreBoard.Models
+﻿namespace SportRadar.WorldCupScoreBoard.Models
 {
     public class Game
     {
@@ -49,7 +43,7 @@ namespace SportRadar.WorldCupScoreBoard.Models
         public int HomeScore
         {
             get { return homeTeamScore; }
-            set { HomeScore = value; }
+            set { homeTeamScore = value; }
         }
 
         public int TotalScore
